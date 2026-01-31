@@ -9,7 +9,9 @@ public class PlayerController : MonoBehaviour
     public MascheraDellaNinna mask;
 
     public GameManager manager;
-
+    public Material movingMaterial;
+    public float baseMovement = 0.02f;
+    public float intensity = .2f;
 
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -21,6 +23,10 @@ public class PlayerController : MonoBehaviour
 
     public void OnLookAround(InputValue value) {
         Vector2 delta = value.Get<Vector2>();
+
+
+        Shader.SetGlobalFloat("_Intensity", Mathf.Clamp(delta.sqrMagnitude, 0, 1) * intensity + baseMovement);
+
         Vector3 rotation = gO.transform.eulerAngles;
         if(rotation.x > 180) {
             rotation.x -= 360;
