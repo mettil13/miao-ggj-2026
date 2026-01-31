@@ -5,6 +5,7 @@ public class MeaownsterSpawner : MonoBehaviour
     public bool lookingLeft;
     public AudioSource audioSource;
     private bool isKitten = false;
+    private float kittenDespawnTime = float.MaxValue;
     
     [SerializeField] private GameObject monster;
     private GameObject instantiatedMonster;
@@ -19,7 +20,6 @@ public class MeaownsterSpawner : MonoBehaviour
             hasSpawned = false;
             this.monster = monster;
             this.isKitten = isKitten;
-          
         }
     }
 
@@ -36,6 +36,7 @@ public class MeaownsterSpawner : MonoBehaviour
                 anim.Stop();
                 anim.Play();
                 spawnTime = Time.time;
+                kittenDespawnTime = Random.Range(5.0f, 15.0f) + Time.time;
                 hasSpawned = true;
             }
             else {
@@ -63,6 +64,10 @@ public class MeaownsterSpawner : MonoBehaviour
 
         if (monster != null && !isKitten && hasSpawned && spawnTime + GameManager.instance.loseTime < Time.time) {
             GameManager.instance.LoseGame();
+        }
+
+        if(isKitten && hasSpawned && Time.time > kittenDespawnTime) {
+            DespawnMonster();
         }
     }
 
