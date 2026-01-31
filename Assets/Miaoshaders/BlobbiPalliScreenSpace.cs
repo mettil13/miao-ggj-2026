@@ -16,8 +16,8 @@ public class BlobbiPalliScreenSpace : MonoBehaviour
     public Material material;
     ComputeBuffer buffer;
     public float pecoroCameraFade = 1;
-    public bool  _mode = true;
-    public float _modeL = 0;
+    private bool  _mode = true;
+    public float modeL = 0;
     #endregion
 
     #region METHODS
@@ -69,8 +69,8 @@ public class BlobbiPalliScreenSpace : MonoBehaviour
         buffer.SetData(ssPoints);
         material.SetBuffer("_SSPoints", buffer);
 
-        _modeL = _mode ? Mathf.Clamp01(_modeL + Time.deltaTime*0.1f) : Mathf.Clamp01(_modeL - Time.deltaTime);
-        pecoroCameraFade = _modeL;
+        modeL = _mode ? Mathf.Clamp01(modeL + Time.deltaTime*0.1f) : Mathf.Clamp01(modeL - Time.deltaTime);
+        pecoroCameraFade = modeL;
         Shader.SetGlobalFloat("_PecoroCameraFade", pecoroCameraFade);
     }
 
