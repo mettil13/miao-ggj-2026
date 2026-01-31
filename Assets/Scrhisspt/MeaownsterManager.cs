@@ -20,7 +20,7 @@ public class MeaownsterManager : MonoBehaviour
     public static MeaownsterManager instance;
 
     private void Awake() {
-        if (instance != null) {
+        if (instance == null) {
             instance = this;
         }
     }

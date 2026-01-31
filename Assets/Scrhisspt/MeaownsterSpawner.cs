@@ -6,13 +6,13 @@ public class MeaownsterSpawner : MonoBehaviour
     public AudioSource audioSource;
     private bool isKitten = false;
     
-    private GameObject monster;
+    [SerializeField] private GameObject monster;
     private GameObject instantiatedMonster;
     private bool hasSpawned;
     private float waitTime = 0;
 
     public void SpawnMonster(GameObject monster, bool isKitten) {
-        if (this.monster != null) {
+        if (this.monster == null) {
             hasSpawned = false;
             this.monster = monster;
             this.isKitten = isKitten;
@@ -20,12 +20,14 @@ public class MeaownsterSpawner : MonoBehaviour
     }
 
     private void Update() {
-        if (monster && !hasSpawned && Time.time > waitTime) {
+        if (monster && Time.time > waitTime) {
         
             int rand = Random.Range(0, 4);
-            if(rand > 2) {
+            if(rand > 2 && !hasSpawned) {
                 instantiatedMonster = Instantiate(monster);
                 instantiatedMonster.transform.position = transform.position;
+                instantiatedMonster.transform.parent = transform;
+                instantiatedMonster.GetComponentInChildren<CameraTriggrrrrr>().onLASERSTRONZO.AddListener(DespawnMonster);
 
                 hasSpawned = true;
             }
@@ -39,8 +41,8 @@ public class MeaownsterSpawner : MonoBehaviour
                 }
                 audioSource.Play();
 
-                waitTime = Random.Range(0.0f, 3.0f) + Time.time;
             }
+            waitTime = Random.Range(0.0f, 6.0f) + Time.time;
             
         }
 

@@ -371,6 +371,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MeaownsterSpawner
   lookingLeft: 0
   audioSource: {fileID: 253455530}
+  monster: {fileID: 0}
 --- !u!82 &253455530
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1045,7 +1046,9 @@ MonoBehaviour:
   - {x: 8, y: 16, z: 0}
   - {x: 9, y: 18, z: 0}
   material: {fileID: 2100000, guid: 0b4661bd0a98f594bab5014279969509, type: 2}
-  pecoroCameraFade: 0.11
+  pecoroCameraFade: 1
+  _mode: 1
+  _modeL: 1
 --- !u!1 &372731970
 GameObject:
   m_ObjectHideFlags: 0
@@ -2036,6 +2039,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MeaownsterSpawner
   lookingLeft: 0
   audioSource: {fileID: 1033063169}
+  monster: {fileID: 0}
 --- !u!82 &1033063169
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4076,6 +4080,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MeaownsterSpawner
   lookingLeft: 0
   audioSource: {fileID: 2004135103}
+  monster: {fileID: 0}
 --- !u!82 &2004135103
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4250,7 +4255,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7975246948234254380, guid: 7597aea74bb4a6944a229257b24f246e, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
