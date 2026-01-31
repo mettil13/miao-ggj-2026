@@ -65,7 +65,7 @@ MonoBehaviour:
   active: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 187.76
+    m_Value: 0.02
   tintColor:
     m_OverrideState: 1
     m_Value: {r: 1, g: 1, b: 1, a: 1}
@@ -73,14 +73,14 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 0
   firstFlareIntensity:
-    m_OverrideState: 0
-    m_Value: 1
+    m_OverrideState: 1
+    m_Value: 0
   secondaryFlareIntensity:
-    m_OverrideState: 0
-    m_Value: 1
+    m_OverrideState: 1
+    m_Value: 0
   warpedFlareIntensity:
-    m_OverrideState: 0
-    m_Value: 1
+    m_OverrideState: 1
+    m_Value: 0
   warpedFlareScale:
     m_OverrideState: 0
     m_Value: {x: 1, y: 1}
@@ -100,17 +100,17 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 1.5
   streaksIntensity:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 168.1
   streaksLength:
-    m_OverrideState: 0
-    m_Value: 0.5
+    m_OverrideState: 1
+    m_Value: 0.45
   streaksOrientation:
     m_OverrideState: 0
     m_Value: 0
   streaksThreshold:
-    m_OverrideState: 0
-    m_Value: 0.25
+    m_OverrideState: 1
+    m_Value: 0.05
   resolution:
     m_OverrideState: 0
     m_Value: 4
@@ -132,13 +132,13 @@ MonoBehaviour:
   active: 1
   shadows:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 0.062461637, z: 0, w: 0.14418133}
+    m_Value: {x: 1, y: 0.062461637, z: 0, w: 0.3179191}
   midtones:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 0.45328757, z: 0.3855617, w: 0.37075177}
+    m_Value: {x: 1, y: 0.45328757, z: 0.3855617, w: 0.95375705}
   highlights:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 0.80308294, z: 0.40368903, w: 0.25746658}
+    m_Value: {x: 1, y: 0.80308294, z: 0.40368903, w: 0.69099253}
   shadowsStart:
     m_OverrideState: 0
     m_Value: 0
@@ -177,6 +177,34 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 0.511
   rounded:
+    m_OverrideState: 0
+    m_Value: 0
+--- !u!114 &-1913491813540759611
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66f335fb1ffd8684294ad653bf1c7564, type: 3}
+  m_Name: ColorAdjustments
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.ColorAdjustments
+  active: 1
+  postExposure:
+    m_OverrideState: 1
+    m_Value: 0.24
+  contrast:
+    m_OverrideState: 0
+    m_Value: 0
+  colorFilter:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  hueShift:
+    m_OverrideState: 0
+    m_Value: 0
+  saturation:
     m_OverrideState: 0
     m_Value: 0
 --- !u!114 &-876236141174979531
@@ -223,6 +251,7 @@ MonoBehaviour:
   - {fileID: -5999966018984139263}
   - {fileID: -5487141630657030588}
   - {fileID: 275719840042442105}
+  - {fileID: -1913491813540759611}
 --- !u!114 &275719840042442105
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -300,7 +329,7 @@ MonoBehaviour:
   active: 1
   intensity:
     m_OverrideState: 1
-    m_Value: 0.215
+    m_Value: 0
 --- !u!114 &7391319092446245454
 MonoBehaviour:
   m_ObjectHideFlags: 3
