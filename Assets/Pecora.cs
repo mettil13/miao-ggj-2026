@@ -93,7 +93,7 @@ Vector3 lastPos;
         Vector3 newPos = mouseWorldPos + offset;
 
         Vector3 delta = newPos - lastPos;
-        dragVector = delta / Time.deltaTime;
+        dragVector = delta;
         dragVector.z=0;
 
 
