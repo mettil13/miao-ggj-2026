@@ -9,6 +9,7 @@ public class MeaownsterSpawner : MonoBehaviour
     [SerializeField] private GameObject monster;
     private GameObject instantiatedMonster;
     private bool hasSpawned;
+    private float spawnTime = float.MaxValue;
     private float waitTime = 0;
 
     public void SpawnMonster(GameObject monster, bool isKitten) {
@@ -29,6 +30,7 @@ public class MeaownsterSpawner : MonoBehaviour
                 instantiatedMonster.transform.parent = transform;
                 instantiatedMonster.GetComponentInChildren<CameraTriggrrrrr>().onLASERSTRONZO.AddListener(DespawnMonster);
 
+                spawnTime = Time.time;
                 hasSpawned = true;
             }
             else {
@@ -46,6 +48,9 @@ public class MeaownsterSpawner : MonoBehaviour
             
         }
 
+        if (monster != null && hasSpawned && spawnTime + GameManager.instance.loseTime < Time.time) {
+            GameManager.instance.LoseGame();
+        }
     }
 
     public void DespawnMonster() {
@@ -54,6 +59,7 @@ public class MeaownsterSpawner : MonoBehaviour
         }
         hasSpawned = false;
         monster = null;
+        spawnTime = float.MaxValue;
     }
 
 }
