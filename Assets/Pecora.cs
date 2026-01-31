@@ -93,7 +93,7 @@ Vector3 lastPos;
         Vector3 newPos = mouseWorldPos + offset;
 
         Vector3 delta = newPos - lastPos;
-        dragVector = delta;
+        dragVector = Vector3.Lerp(dragVector, delta, Time.deltaTime*10f);
         dragVector.z=0;
 
 
@@ -106,7 +106,7 @@ Vector3 lastPos;
         rb.isKinematic = false;
         dragging=false;
 
-        rb.linearVelocity = dragVector.normalized * maxLaunchMagnitude;
+        rb.AddForce(dragVector.normalized * maxLaunchMagnitude, ForceMode.VelocityChange);
     }
 
     private Vector3 GetMousePos()
