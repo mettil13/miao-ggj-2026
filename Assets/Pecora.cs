@@ -106,7 +106,7 @@ Vector3 lastPos;
         rb.isKinematic = false;
         dragging=false;
 
-        rb.linearVelocity = dragVector.normalized * Mathf.Min(dragVector.magnitude, maxLaunchMagnitude);
+        rb.linearVelocity = dragVector.normalized * maxLaunchMagnitude;
     }
 
     private Vector3 GetMousePos()
