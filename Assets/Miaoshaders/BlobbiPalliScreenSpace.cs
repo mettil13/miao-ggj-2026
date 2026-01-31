@@ -75,7 +75,7 @@ public class BlobbiPalliScreenSpace : MonoBehaviour
         buffer.SetData(ssPoints);
         material.SetBuffer("_SSPoints", buffer);
 
-        modeL = _mode ? Mathf.Clamp01(modeL + Time.deltaTime*0.1f) : Mathf.Clamp01(modeL - Time.deltaTime);
+        modeL = _mode ? Mathf.Clamp01(modeL + Time.deltaTime*0.5f) : Mathf.Clamp01(modeL - Time.deltaTime);
         pecoroCameraFade = modeL;
         Shader.SetGlobalFloat("_PecoroCameraFade", pecoroCameraFade);
     }

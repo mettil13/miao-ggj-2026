@@ -33,6 +33,7 @@ public class MeaownsterSpawner : MonoBehaviour
                 instantiatedMonster.transform.parent = transform;
                 instantiatedMonster.GetComponentInChildren<CameraTriggrrrrr>().onLASERSTRONZO.AddListener(DespawnMonster);
                 instantiatedMonster.transform.parent = this.pivot;
+                instantiatedMonster.transform.localPosition = Vector3.zero;
                 anim.Stop();
                 anim.Play();
                 spawnTime = Time.time;
