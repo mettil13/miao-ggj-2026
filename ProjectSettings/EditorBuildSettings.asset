@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/YouWin.unity
     guid: 114ab2e84e9402543b4674faea0598d1
+  - enabled: 1
+    path: Assets/Scenes/GattinityTeam.unity
+    guid: 8e4eedfe36863224fbe05539cc5a0a44
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

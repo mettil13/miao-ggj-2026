@@ -25,6 +25,16 @@ public class MiaoMenu : MonoBehaviour
         LoadScene("GameScene");
     }
 
+    public void OnCreditsClick()
+    {
+        LoadScene("GattinityTeam");
+    }
+
+    public void OnMainMenuClick()
+    {
+        LoadScene("MiaoMenu");
+    }
+
     public void LoadScene(string sceneName)
     {
         if (_isLoading)
