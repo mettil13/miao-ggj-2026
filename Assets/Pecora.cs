@@ -37,7 +37,7 @@ public class Pecora : MonoBehaviour
             */
 
             Vector3 screenPos = mainCamera.WorldToViewportPoint(transform.position);
-           Vector3 mousePos = mainCamera.ScreenToViewportPoint(Input.mousePosition) ;
+           Vector3 mousePos = mainCamera.ScreenToViewportPoint(GetMousePos()) ;
 
 
             if(Vector2.Distance(screenPos, mousePos) < 0.07f)
@@ -54,10 +54,11 @@ public class Pecora : MonoBehaviour
             OnMouseDraggo();
         else
         {
-            if(transform.position.x > 0f && transform.position.y < 1f)
+            Vector3 trPos = PecoraMinigame.instance.transform.InverseTransformPoint(transform.position);
+            if(trPos.x > 0f && trPos.y < 1f)
                 GetComponent<Rigidbody>().AddForce(Vector3.right* 10);
 
-            if(transform.position.x > 14f)
+            if(trPos.x > 14f)
             {
                 PecoraMinigame.instance.OnPecoraExit(this);
             }
@@ -107,9 +108,18 @@ Vector3 lastPos;
         rb.linearVelocity = dragVector.normalized * Mathf.Min(dragVector.magnitude, maxLaunchMagnitude);
     }
 
+    private Vector3 GetMousePos()
+    {
+        Vector3 p = Input.mousePosition;
+
+        Vector3 vP = Camera.main.WorldToViewportPoint(p);
+
+        return PecoraMinigame.instance.mainCamera.ViewportToScreenPoint(vP);
+    }
+
     private Vector3 GetMouseWorldPosition()
     {
-        Vector3 mousePos = Input.mousePosition;
+        Vector3 mousePos = GetMousePos();
         mousePos.z = distanceFromCamera;
         return mainCamera.ScreenToWorldPoint(mousePos);
     }
