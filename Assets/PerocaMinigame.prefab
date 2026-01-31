@@ -987,6 +987,68 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &6191708380125789452
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2779090626199019935}
+  - component: {fileID: 8793293853156524283}
+  - component: {fileID: 556631476396535057}
+  m_Layer: 0
+  m_Name: Cube (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2779090626199019935
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6191708380125789452}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0.18309344, z: 0, w: 0.9830956}
+  m_LocalPosition: {x: -0.21, y: 0.0864, z: 0.6117}
+  m_LocalScale: {x: 0.3824, y: 2.4666247, z: 6.71172}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4644237606655035646}
+  m_LocalEulerAnglesHint: {x: 0, y: -21.1, z: 0}
+--- !u!33 &8793293853156524283
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6191708380125789452}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &556631476396535057
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6191708380125789452}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6677459114515403205
 GameObject:
   m_ObjectHideFlags: 0
@@ -1134,6 +1196,7 @@ Transform:
   - {fileID: 5509926274006757017}
   - {fileID: 1783109218981988936}
   - {fileID: 9121248703644069752}
+  - {fileID: 2779090626199019935}
   - {fileID: 6488730762054895171}
   - {fileID: 7323867635987567669}
   - {fileID: 3878136435838893166}
@@ -1156,6 +1219,7 @@ MonoBehaviour:
   mainCamera: {fileID: 2491924391320780555}
   audioSource: {fileID: 9164261260668973358}
   cannon: {fileID: 1460055046177347750}
+  dirlight: {fileID: 3023064440344852413}
 --- !u!1 &8258464105114270953
 GameObject:
   m_ObjectHideFlags: 0

@@ -40,8 +40,8 @@ public class PecoraMinigame : MonoBehaviour
 
         audioSource.volume = ((float)pecoreCount-3f) / 10f;
 
-
-        dirlight.intensity = BlobbiPalliScreenSpace.instance.modeL;
+        if(BlobbiPalliScreenSpace.instance != null)
+           dirlight.intensity = BlobbiPalliScreenSpace.instance.modeL;
     }
 
     public void OnNewPecora(Pecora pecora)
