@@ -49,7 +49,7 @@ public class MeaownsterManager : MonoBehaviour
                 monsterSpawners[monsterSpawnerIndex].SpawnMonster(go, true);
             }
 
-            monsterSpawnWaitTime = Random.Range(0.0f, 5.0f) + Time.time;
+            monsterSpawnWaitTime = Random.Range(0.0f, 15.0f) + Time.time;
         }
     }
 }

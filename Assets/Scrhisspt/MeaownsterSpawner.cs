@@ -45,6 +45,14 @@ public class MeaownsterSpawner : MonoBehaviour
                 else {
                     audioSource.resource = MeaownsterManager.instance.monstersClip;
                 }
+
+                if (hasSpawned) {
+                    audioSource.volume = 1f;
+                }
+                else {
+                    audioSource.volume = 0.25f;
+                }
+                    
                 audioSource.Play();
 
             }
@@ -52,7 +60,7 @@ public class MeaownsterSpawner : MonoBehaviour
             
         }
 
-        if (monster != null && hasSpawned && spawnTime + GameManager.instance.loseTime < Time.time) {
+        if (monster != null && !isKitten && hasSpawned && spawnTime + GameManager.instance.loseTime < Time.time) {
             GameManager.instance.LoseGame();
         }
     }

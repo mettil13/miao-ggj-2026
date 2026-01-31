@@ -30,7 +30,7 @@ public class GameManager : MonoBehaviour
     void Update() {
         if (!playerController.mask.isMaskDown) {
             if (ninnaValue > 0) {
-                ninnaValue -= Time.deltaTime;
+                ninnaValue -= Time.deltaTime * 0.2f;
             }
         }
 
