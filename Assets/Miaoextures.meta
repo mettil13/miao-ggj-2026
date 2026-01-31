@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 8cba07ebeefb8339f8a23cee50c11a58
+=======
 guid: af12853d382b80f4c87ac1edd9b4d242
+>>>>>>> branch 'main' of git@github.com:mettil13/miao-ggj-2026.git
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
