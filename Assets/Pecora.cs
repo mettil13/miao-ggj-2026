@@ -112,7 +112,7 @@ Vector3 lastPos;
     {
         Vector3 p = Input.mousePosition;
 
-        Vector3 vP = Camera.main.WorldToViewportPoint(p);
+        Vector3 vP = Camera.main.ScreenToViewportPoint(p);
 
         return PecoraMinigame.instance.mainCamera.ViewportToScreenPoint(vP);
     }
