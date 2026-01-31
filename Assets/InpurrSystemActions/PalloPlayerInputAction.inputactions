@@ -1,0 +1,46 @@
+{
+    "version": 1,
+    "name": "PalloPlayerInputAction",
+    "maps": [
+        {
+            "name": "Game",
+            "id": "f3aae7bf-bf10-43d8-b026-59c2416299c6",
+            "actions": [
+                {
+                    "name": "LookAround",
+                    "type": "Value",
+                    "id": "085443e6-0318-47ca-bbc4-ae249d653dc0",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "435dcdf3-02b7-45cb-9b3e-45f3d7303d7e",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LookAround",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "89704f5b-5c97-4c87-b869-b579f0628e88",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LookAround",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
