@@ -1,0 +1,1083 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-8861300657691972526
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dragon RPG Monster 02-2_{-8861300657691972526}
+  m_AudioClip: {fileID: 8300000, guid: 75367e1064a90e749a8902f8d76859d4, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-8744247194908936068
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Ghost Apparition 04-2_{-8744247194908936068}
+  m_AudioClip: {fileID: 8300000, guid: fb4b4b3e3aa70f64b886754c287b43b4, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-8589861813631203506
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dragon Killing Hit 04_{-8589861813631203506}
+  m_AudioClip: {fileID: 8300000, guid: 17028f6244bb7e6479d5ec1dfad7695b, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-8232575340203053394
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dragon Killing Hit 03_{-8232575340203053394}
+  m_AudioClip: {fileID: 8300000, guid: 786db784ea587c14cb0651ee2ca2ef10, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-8177653732071603625
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Groan 4_{-8177653732071603625}
+  m_AudioClip: {fileID: 8300000, guid: b67936d5394c36c468461ed0cb95b67c, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-8118428350625880819
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Ghost Apparition 03_{-8118428350625880819}
+  m_AudioClip: {fileID: 8300000, guid: 6f60469d9f9e6b04799dd4f747ae94d8, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-7861893449628328173
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dragon Killing Hit 02_{-7861893449628328173}
+  m_AudioClip: {fileID: 8300000, guid: cf174ec85a5760245807ec8e290b96cb, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-7477331808627156314
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Ghost Apparition 02-2_{-7477331808627156314}
+  m_AudioClip: {fileID: 8300000, guid: 7ee99211d36773a49a98051face76ea5, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-7458645180435549398
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dragon Killing Hit 04-2_{-7458645180435549398}
+  m_AudioClip: {fileID: 8300000, guid: f8227b3086b856e4ea80183b79d9aa16, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-7368975015415539702
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Winged Serpent 03_{-7368975015415539702}
+  m_AudioClip: {fileID: 8300000, guid: 915d3c29feb62e84abc81ee24b2f31da, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-7117207746347272668
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Grunt 3_{-7117207746347272668}
+  m_AudioClip: {fileID: 8300000, guid: 1f0508e845339704586b3566468935a1, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-7048252246282446625
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Grunt 5-2_{-7048252246282446625}
+  m_AudioClip: {fileID: 8300000, guid: abb7863377daaee4181fe5e715f53bd5, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-7031817205520777689
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Dying 1_{-7031817205520777689}
+  m_AudioClip: {fileID: 8300000, guid: 9a83783dc477322479bb9d83c4ca3d58, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-6984185426318355304
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dragon RPG Monster 04_{-6984185426318355304}
+  m_AudioClip: {fileID: 8300000, guid: 3392164de461750408f2dcc29c871ec0, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-6979311213841712221
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Dying 4_{-6979311213841712221}
+  m_AudioClip: {fileID: 8300000, guid: 47b9b352fc863744da31ea865a3af2fc, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-6561380132211819256
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Growl 3-2_{-6561380132211819256}
+  m_AudioClip: {fileID: 8300000, guid: 6f815b878e3119845823e31bd75aae9a, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-6545321671296275653
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Grunt 4-2_{-6545321671296275653}
+  m_AudioClip: {fileID: 8300000, guid: 604ada8e852dfd54bb644007028883e9, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-5964043841771014222
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Winged Serpent 05_{-5964043841771014222}
+  m_AudioClip: {fileID: 8300000, guid: a418e1616e8a98c42b0007484bdc236c, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-5918074153861090935
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Grunt 4_{-5918074153861090935}
+  m_AudioClip: {fileID: 8300000, guid: 000afe62dbfbcd645b2f6ee6d2ac7a82, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-5448354052211239844
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Groan 2_{-5448354052211239844}
+  m_AudioClip: {fileID: 8300000, guid: 7eea88f7ef6662844be0397d35b51c0d, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-5350197197136388155
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Zombie Killed by Gunshot 03_{-5350197197136388155}
+  m_AudioClip: {fileID: 8300000, guid: f2274bf699b9bf04c928819c071fb56b, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-4998319012156734747
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Dying 5_{-4998319012156734747}
+  m_AudioClip: {fileID: 8300000, guid: 71a7681fc0b91fb4ab3bb900b9ab8149, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-4994437168048104910
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Dying 4-2_{-4994437168048104910}
+  m_AudioClip: {fileID: 8300000, guid: d14269626b650cc40a7afbfd79e5086f, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-4932827246031623733
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Grunt 5_{-4932827246031623733}
+  m_AudioClip: {fileID: 8300000, guid: 0296522e7933d3d439aa97f24fbb1515, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-4771898540502916732
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Dying 3_{-4771898540502916732}
+  m_AudioClip: {fileID: 8300000, guid: 20c4ea7bffc685a459973eb64ce06198, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-4753549151718240459
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Growl 3_{-4753549151718240459}
+  m_AudioClip: {fileID: 8300000, guid: 8867ff185650b9b4aa7701a391a4cdab, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-4175637662608906285
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Groan 4-2_{-4175637662608906285}
+  m_AudioClip: {fileID: 8300000, guid: 433f90572b7deae4daa3244c9e3cf48a, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-4059164649564574340
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Ghost Apparition 05-2_{-4059164649564574340}
+  m_AudioClip: {fileID: 8300000, guid: ea117372dc2dd7e468bd5d1dbafaaf1f, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-3900545211082675666
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Grunt 6_{-3900545211082675666}
+  m_AudioClip: {fileID: 8300000, guid: 6b55d5a1c285d1042805770eb96095d0, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-3871996724079672750
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Growl 6-2_{-3871996724079672750}
+  m_AudioClip: {fileID: 8300000, guid: 1d3b7eeeb719d1e48a2f44cf65f48c33, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-3742908303612585394
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dragon RPG Monster 01-2_{-3742908303612585394}
+  m_AudioClip: {fileID: 8300000, guid: c2ab90f0bb93d4e4aa5667d7f645c587, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-3354665662349782653
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Winged Serpent 04-2_{-3354665662349782653}
+  m_AudioClip: {fileID: 8300000, guid: 081ac453caa763c49960321bef1af1d9, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-3185511954740019542
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Ghost Apparition 04_{-3185511954740019542}
+  m_AudioClip: {fileID: 8300000, guid: fb079a565299b384f9bc279ba898e21f, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-2302442443008147575
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Grunt 1-2_{-2302442443008147575}
+  m_AudioClip: {fileID: 8300000, guid: def668128bc4f9244acd9aa30c9e69db, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-2226611327228262480
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dragon RPG Monster 02_{-2226611327228262480}
+  m_AudioClip: {fileID: 8300000, guid: a5743e3cda060fd4990a7277d272ffff, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-2131516197706835020
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Ghost Apparition 05_{-2131516197706835020}
+  m_AudioClip: {fileID: 8300000, guid: 858d64a9f8afd9643adfbb1ead21b5cb, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-2020296952210397251
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Zombie Killed by Gunshot 01_{-2020296952210397251}
+  m_AudioClip: {fileID: 8300000, guid: fff08e02a1f283f48807865f5f13a0cd, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-1582901516782849101
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Ghost Apparition 01_{-1582901516782849101}
+  m_AudioClip: {fileID: 8300000, guid: 180284e7431c9ab41b367e0babab8718, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-1332636158848348504
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Zombie Killed by Gunshot 04-2_{-1332636158848348504}
+  m_AudioClip: {fileID: 8300000, guid: d6aebcd88e63e354ea9f60b723eeadb5, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-516918093296581403
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Ghost Apparition 02_{-516918093296581403}
+  m_AudioClip: {fileID: 8300000, guid: f52f610cea19cee4c9c7728128361011, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-458867504760963197
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Dying 3-2_{-458867504760963197}
+  m_AudioClip: {fileID: 8300000, guid: 7dd0fa1525427024ebe98ef18067ebf4, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-374539171155246723
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Growl 2_{-374539171155246723}
+  m_AudioClip: {fileID: 8300000, guid: c1738e3039cc0b24f992a3a372f9839b, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-169240790853732423
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Dying 2_{-169240790853732423}
+  m_AudioClip: {fileID: 8300000, guid: a2e5963da994640438f1294400635e74, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &167275469884948819
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Zombie Killed by Gunshot 05-2_{167275469884948819}
+  m_AudioClip: {fileID: 8300000, guid: 8069b37865b875149904dfcecef3741d, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &196181940530873802
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Growl 5-2_{196181940530873802}
+  m_AudioClip: {fileID: 8300000, guid: 399c5447242690c42a560426cbe05986, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &625904240026412473
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Growl 1_{625904240026412473}
+  m_AudioClip: {fileID: 8300000, guid: 0edb724356636b74fafb5d855870f9db, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &702012106093797143
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dragon RPG Monster 03_{702012106093797143}
+  m_AudioClip: {fileID: 8300000, guid: af2dd80ce76eb834b82f3748eb9156bb, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &774434436810489917
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dragon RPG Monster 04-2_{774434436810489917}
+  m_AudioClip: {fileID: 8300000, guid: 3cacf1b1235e5954aabbdd5b606917fe, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &823265188660138149
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Monster Creature Eating_{823265188660138149}
+  m_AudioClip: {fileID: 8300000, guid: 35e90acd544477c43a00099f2c79a967, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &1009392877765120028
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Grunt 3-2_{1009392877765120028}
+  m_AudioClip: {fileID: 8300000, guid: faf7d2f8f763721418054188ce9f3887, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &1169721341789575864
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dragon Killing Hit 02-2_{1169721341789575864}
+  m_AudioClip: {fileID: 8300000, guid: c18f576b4dca3b14bb9bfeb63d5b6d5f, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &1352482301038811609
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dragon Killing Hit 01-2_{1352482301038811609}
+  m_AudioClip: {fileID: 8300000, guid: f6229d9a4ae87e74f9bbdcf935c14b1a, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &1392764275197003457
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dragon Killing Hit 05_{1392764275197003457}
+  m_AudioClip: {fileID: 8300000, guid: a318ba67e927b6a46a0dd3cfa9601d4f, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &1566996497929280449
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Monster Creature Eating-2_{1566996497929280449}
+  m_AudioClip: {fileID: 8300000, guid: f12f0df6670bd3f49a7d4070f2ca66e7, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &1754482906530234063
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Zombie Killed by Gunshot 03-2_{1754482906530234063}
+  m_AudioClip: {fileID: 8300000, guid: 0493c43d0c8818b4296dca97503c652a, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &1854330967084313955
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Ghost Apparition 03-2_{1854330967084313955}
+  m_AudioClip: {fileID: 8300000, guid: d1b90a47e4825ef44b11ecf90e5c8858, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &2293264222427166206
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Winged Serpent 01-2_{2293264222427166206}
+  m_AudioClip: {fileID: 8300000, guid: 63218f73c1001a34c88b0d5f846f2327, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &2354558033294088192
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dragon Killing Hit 05-2_{2354558033294088192}
+  m_AudioClip: {fileID: 8300000, guid: 26a741fe38f442948935dc94bfb91b4f, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &2515850670821003446
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Zombie Killed by Gunshot 01-2_{2515850670821003446}
+  m_AudioClip: {fileID: 8300000, guid: d04345b4ca97d9848880bbf5c7725222, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &2670534097035301457
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Groan 3-2_{2670534097035301457}
+  m_AudioClip: {fileID: 8300000, guid: b5906baf418d2fd4fbd5d254420aadda, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &2929014608612384084
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Zombie Killed by Gunshot 04_{2929014608612384084}
+  m_AudioClip: {fileID: 8300000, guid: d14950b4d6e498745bbb745d66de17cd, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &3285391397164231357
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dragon RPG Monster 01_{3285391397164231357}
+  m_AudioClip: {fileID: 8300000, guid: a6e1dc14df268154aa9564689e8e6695, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &3573949637852057964
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Dying 2-2_{3573949637852057964}
+  m_AudioClip: {fileID: 8300000, guid: 27e17fca7f6453f438577ef8bd5efac4, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &3802746758136040029
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Zombie Killed by Gunshot 05_{3802746758136040029}
+  m_AudioClip: {fileID: 8300000, guid: 350811318a7851c428d3de61022e2455, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &4056101644606286524
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Groan 1-2_{4056101644606286524}
+  m_AudioClip: {fileID: 8300000, guid: 539fab4e1efddbc4e8fe191b6e3224a9, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &4066783927469025737
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Growl 1-2_{4066783927469025737}
+  m_AudioClip: {fileID: 8300000, guid: 53b10784ee162ec42bfce8d104c83d36, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &4436623088014943311
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Growl 6_{4436623088014943311}
+  m_AudioClip: {fileID: 8300000, guid: 8dc03f8f5b489244db911009a6f659ee, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &4444057838572501806
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Zombie Killed by Gunshot 02_{4444057838572501806}
+  m_AudioClip: {fileID: 8300000, guid: c33dd49c6b55b2943ba36c77510f3b17, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &4470087059158381053
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Grunt 2_{4470087059158381053}
+  m_AudioClip: {fileID: 8300000, guid: 47ae5c1e2a46fc54dbda07cb3742bdbc, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &4540823074124897763
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Zombie Killed by Gunshot 02-2_{4540823074124897763}
+  m_AudioClip: {fileID: 8300000, guid: e399ce1382c4e974a857c8cd14a7512d, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &4821770047612102600
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Winged Serpent 05-2_{4821770047612102600}
+  m_AudioClip: {fileID: 8300000, guid: 46efae130c6594244ab59d53e96c46e2, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &4837241708502561404
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dragon RPG Monster 05_{4837241708502561404}
+  m_AudioClip: {fileID: 8300000, guid: 69ea06debd3d4164aab6c3fdf5150799, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &5103061545049565026
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Growl 2-2_{5103061545049565026}
+  m_AudioClip: {fileID: 8300000, guid: f79d416c4d1a3574380d804876d97acf, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &5173411467850228068
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Growl 4-2_{5173411467850228068}
+  m_AudioClip: {fileID: 8300000, guid: 5305186fda16ce3468f42e8422547969, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &5276376632435826132
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Groan 1_{5276376632435826132}
+  m_AudioClip: {fileID: 8300000, guid: 6d9e1ee25f09f1a4fbdfd42372f816c8, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &5312695361654684718
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Winged Serpent 02-2_{5312695361654684718}
+  m_AudioClip: {fileID: 8300000, guid: 9bc0bef41703a7348be29cc68a6a1784, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &5347693980467761377
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dragon Killing Hit 03-2_{5347693980467761377}
+  m_AudioClip: {fileID: 8300000, guid: ed22a74b3de25d3498b7515e1217a860, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &5359569684755633693
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Growl 4_{5359569684755633693}
+  m_AudioClip: {fileID: 8300000, guid: 695acabb5bba15f4e95293f979eed4ed, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &5697486495730853845
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Groan 2-2_{5697486495730853845}
+  m_AudioClip: {fileID: 8300000, guid: 3abb4bc4ec45dce498eb3a7940dd8b0b, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &5725502345562707066
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Dying 5-2_{5725502345562707066}
+  m_AudioClip: {fileID: 8300000, guid: bb8e5c416b68f424c9f34efc8c991312, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &5744746477004602366
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Winged Serpent 02_{5744746477004602366}
+  m_AudioClip: {fileID: 8300000, guid: 0e1389baa771b16468124843f49de709, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &5808381331006309110
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Groan 5_{5808381331006309110}
+  m_AudioClip: {fileID: 8300000, guid: b76d0fd79b4023b4c8ac20fa2ebee32e, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &5870581751640465494
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Winged Serpent 04_{5870581751640465494}
+  m_AudioClip: {fileID: 8300000, guid: 3c85ea4e21888cc43a9b8993c33505eb, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &6094659302119627534
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dragon RPG Monster 05-2_{6094659302119627534}
+  m_AudioClip: {fileID: 8300000, guid: 9f4905815d34b6b4c89eec7622ff0f13, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &6113254101056057753
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Grunt 6-2_{6113254101056057753}
+  m_AudioClip: {fileID: 8300000, guid: 1d44ca2574f37fa47ad53053236260ba, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MonsterRandomSound
+  m_Volume: 0
+  m_Pitch: 0
+  m_AutomaticTriggerTime: 0
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: 0, y: 0}
+  m_PitchRandomizationRange: {x: 0, y: 0}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: 7555652676294813536}
+  - {fileID: 1352482301038811609}
+  - {fileID: -7861893449628328173}
+  - {fileID: 1169721341789575864}
+  - {fileID: -8232575340203053394}
+  - {fileID: 5347693980467761377}
+  - {fileID: -8589861813631203506}
+  - {fileID: -7458645180435549398}
+  - {fileID: 1392764275197003457}
+  - {fileID: 2354558033294088192}
+  - {fileID: 3285391397164231357}
+  - {fileID: -3742908303612585394}
+  - {fileID: -2226611327228262480}
+  - {fileID: -8861300657691972526}
+  - {fileID: 702012106093797143}
+  - {fileID: 7529853951708387003}
+  - {fileID: -6984185426318355304}
+  - {fileID: 774434436810489917}
+  - {fileID: 4837241708502561404}
+  - {fileID: 6094659302119627534}
+  - {fileID: -1582901516782849101}
+  - {fileID: 7169756279994373039}
+  - {fileID: -516918093296581403}
+  - {fileID: -7477331808627156314}
+  - {fileID: -8118428350625880819}
+  - {fileID: 1854330967084313955}
+  - {fileID: -3185511954740019542}
+  - {fileID: -8744247194908936068}
+  - {fileID: -2131516197706835020}
+  - {fileID: -4059164649564574340}
+  - {fileID: -7031817205520777689}
+  - {fileID: 7443505928613068630}
+  - {fileID: -169240790853732423}
+  - {fileID: 3573949637852057964}
+  - {fileID: -4771898540502916732}
+  - {fileID: -458867504760963197}
+  - {fileID: -6979311213841712221}
+  - {fileID: -4994437168048104910}
+  - {fileID: -4998319012156734747}
+  - {fileID: 5725502345562707066}
+  - {fileID: 5276376632435826132}
+  - {fileID: 4056101644606286524}
+  - {fileID: -5448354052211239844}
+  - {fileID: 5697486495730853845}
+  - {fileID: 7803643839794174865}
+  - {fileID: 2670534097035301457}
+  - {fileID: -8177653732071603625}
+  - {fileID: -4175637662608906285}
+  - {fileID: 5808381331006309110}
+  - {fileID: 7806327782670668720}
+  - {fileID: 625904240026412473}
+  - {fileID: 4066783927469025737}
+  - {fileID: -374539171155246723}
+  - {fileID: 5103061545049565026}
+  - {fileID: -4753549151718240459}
+  - {fileID: -6561380132211819256}
+  - {fileID: 5359569684755633693}
+  - {fileID: 5173411467850228068}
+  - {fileID: 8112090534941772162}
+  - {fileID: 196181940530873802}
+  - {fileID: 4436623088014943311}
+  - {fileID: -3871996724079672750}
+  - {fileID: 6558487284837118210}
+  - {fileID: -2302442443008147575}
+  - {fileID: 4470087059158381053}
+  - {fileID: 8741435562065148688}
+  - {fileID: -7117207746347272668}
+  - {fileID: 1009392877765120028}
+  - {fileID: -5918074153861090935}
+  - {fileID: -6545321671296275653}
+  - {fileID: -4932827246031623733}
+  - {fileID: -7048252246282446625}
+  - {fileID: -3900545211082675666}
+  - {fileID: 6113254101056057753}
+  - {fileID: 823265188660138149}
+  - {fileID: 1566996497929280449}
+  - {fileID: 8017519349916270084}
+  - {fileID: 2293264222427166206}
+  - {fileID: 5744746477004602366}
+  - {fileID: 5312695361654684718}
+  - {fileID: -7368975015415539702}
+  - {fileID: 9025492480503422393}
+  - {fileID: 5870581751640465494}
+  - {fileID: -3354665662349782653}
+  - {fileID: -5964043841771014222}
+  - {fileID: 4821770047612102600}
+  - {fileID: -2020296952210397251}
+  - {fileID: 2515850670821003446}
+  - {fileID: 4444057838572501806}
+  - {fileID: 4540823074124897763}
+  - {fileID: -5350197197136388155}
+  - {fileID: 1754482906530234063}
+  - {fileID: 2929014608612384084}
+  - {fileID: -1332636158848348504}
+  - {fileID: 3802746758136040029}
+  - {fileID: 167275469884948819}
+  m_AvoidRepeatingLast: 0
+  m_PlaybackMode: 1
+  m_TriggerMode: 1
+  m_AutomaticTriggerMode: 1
+  m_LoopMode: 2
+  m_VolumeRandomizationEnabled: 0
+  m_PitchRandomizationEnabled: 0
+  m_AutomaticTriggerTimeRandomizationEnabled: 0
+  m_LoopCountRandomizationEnabled: 0
+--- !u!1233149941 &6558487284837118210
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Grunt 1_{6558487284837118210}
+  m_AudioClip: {fileID: 8300000, guid: 634458c7245d2ac40aa68a558f98c229, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &7169756279994373039
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Ghost Apparition 01-2_{7169756279994373039}
+  m_AudioClip: {fileID: 8300000, guid: 219f54d2ee6da1b4fb29a1340e0ddd14, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &7443505928613068630
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Dying 1-2_{7443505928613068630}
+  m_AudioClip: {fileID: 8300000, guid: 9d6f813508ee51b4192e507efabb8b50, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &7529853951708387003
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dragon RPG Monster 03-2_{7529853951708387003}
+  m_AudioClip: {fileID: 8300000, guid: 0663612f4728c6f4b9ef7bd042d451b9, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &7555652676294813536
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dragon Killing Hit 01_{7555652676294813536}
+  m_AudioClip: {fileID: 8300000, guid: b643d97f0f6cdc047983bdd80dcd3fb4, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &7803643839794174865
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Groan 3_{7803643839794174865}
+  m_AudioClip: {fileID: 8300000, guid: 295dcb1526b009045a289d591fb2ca1f, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &7806327782670668720
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Groan 5-2_{7806327782670668720}
+  m_AudioClip: {fileID: 8300000, guid: 27b25ad129ea16441a255194b9e48260, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &8017519349916270084
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Winged Serpent 01_{8017519349916270084}
+  m_AudioClip: {fileID: 8300000, guid: 818e6577827ba42418db6e86f5368c34, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &8112090534941772162
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Growl 5_{8112090534941772162}
+  m_AudioClip: {fileID: 8300000, guid: 405e338c73abec44ebc77c78327e6262, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &8741435562065148688
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Giant Monster Grunt 2-2_{8741435562065148688}
+  m_AudioClip: {fileID: 8300000, guid: ec6a7ebe778c73b4ab75d38bc14fd9eb, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &9025492480503422393
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Winged Serpent 03-2_{9025492480503422393}
+  m_AudioClip: {fileID: 8300000, guid: 3326eb1fbcf42c24cb766ed15f99d630, type: 3}
+  m_Volume: 0
+  m_Enabled: 1

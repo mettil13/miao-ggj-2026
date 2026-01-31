@@ -58,6 +58,8 @@ public class UGUIMenuButtonFX : MonoBehaviour, IPointerEnterHandler, IPointerExi
     private static readonly int GlowPowerID = Shader.PropertyToID("_GlowPower");
     private static readonly int GlowColorID = Shader.PropertyToID("_GlowColor");
 
+    public AudioSource hoverAudioSource, clickAudioSource;
+
     private void Awake()
     {
         _rt = transform as RectTransform;
@@ -91,6 +93,8 @@ public class UGUIMenuButtonFX : MonoBehaviour, IPointerEnterHandler, IPointerExi
     {
         _isHovered = true;
         AnimateToState();
+
+        hoverAudioSource?.Play();
     }
 
     public void OnPointerExit(PointerEventData eventData)
@@ -104,6 +108,8 @@ public class UGUIMenuButtonFX : MonoBehaviour, IPointerEnterHandler, IPointerExi
     {
         _isPressed = true;
         AnimateToState();
+
+        clickAudioSource?.Play();
     }
 
     public void OnPointerUp(PointerEventData eventData)

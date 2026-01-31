@@ -266,6 +266,8 @@ MonoBehaviour:
   tintTextOnHover: 1
   textColorNormal: {r: 1, g: 1, b: 1, a: 1}
   textColorHover: {r: 1, g: 0.92, b: 0.75, a: 1}
+  hoverAudioSource: {fileID: 0}
+  clickAudioSource: {fileID: 0}
 --- !u!1 &257514594
 GameObject:
   m_ObjectHideFlags: 0
@@ -487,6 +489,8 @@ MonoBehaviour:
   tintTextOnHover: 1
   textColorNormal: {r: 1, g: 1, b: 1, a: 1}
   textColorHover: {r: 1, g: 0.92, b: 0.75, a: 1}
+  hoverAudioSource: {fileID: 0}
+  clickAudioSource: {fileID: 0}
 --- !u!114 &299907602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6649,8 +6653,9 @@ GameObject:
   - component: {fileID: 1435972162}
   - component: {fileID: 1435972161}
   - component: {fileID: 1435972160}
+  - component: {fileID: 1435972164}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Menu Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6731,10 +6736,10 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1705193768}
   - {fileID: 42951927}
   - {fileID: 2075670872}
   - {fileID: 299907600}
+  - {fileID: 1705193768}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -6742,6 +6747,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1435972164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1435972159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c369ce9b5c933343a1f8de842f983da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MiaoMenu
+  fadeImage: {fileID: 1705193769}
 --- !u!1 &1462552431
 GameObject:
   m_ObjectHideFlags: 0
@@ -7640,12 +7658,12 @@ GameObject:
   - component: {fileID: 1705193770}
   - component: {fileID: 1705193769}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Fade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1705193768
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7660,10 +7678,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1435972163}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1230, y: -670}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1705193769
 MonoBehaviour:
@@ -7678,10 +7696,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
+  m_Maskable: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -7846,7 +7864,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95ae6a0b52c6a40488a1e040dc7c19c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UGUIMenuButtonFX
-  label: {fileID: 0}
+  label: {fileID: 429792900}
   hoverScale: 1.05
   pressScale: 0.98
   hoverDuration: 0.12
@@ -7859,6 +7877,8 @@ MonoBehaviour:
   tintTextOnHover: 1
   textColorNormal: {r: 1, g: 1, b: 1, a: 1}
   textColorHover: {r: 1, g: 0.92, b: 0.75, a: 1}
+  hoverAudioSource: {fileID: 0}
+  clickAudioSource: {fileID: 0}
 --- !u!114 &2075670874
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7902,7 +7922,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2075670875}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1435972164}
+        m_TargetAssemblyTypeName: MiaoMenu, Assembly-CSharp
+        m_MethodName: OnPlayClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2075670875
 MonoBehaviour:
   m_ObjectHideFlags: 0

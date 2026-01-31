@@ -1,0 +1,225 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-8030654491768718461
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LDj_Audio_Metallic_Creaking_V2_{-8030654491768718461}
+  m_AudioClip: {fileID: 8300000, guid: 243d50aba0600ec46818130d9895eca4, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-6965971460370715357
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Scary Hit 4_{-6965971460370715357}
+  m_AudioClip: {fileID: 8300000, guid: b68480fb1d150ee45b11f3ae651e97f0, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-6353604372913670574
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LDj_Audio_Metallic_Creaking_V1_{-6353604372913670574}
+  m_AudioClip: {fileID: 8300000, guid: ef736a94489b2734f8d7841e98bdcb74, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-6286116024840203620
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Scary Hit 3_{-6286116024840203620}
+  m_AudioClip: {fileID: 8300000, guid: c1cb3b1b75a818343a3d597c3251ab08, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-5984450878210732119
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LDj_Audio_Metallic_Creaking_V3_{-5984450878210732119}
+  m_AudioClip: {fileID: 8300000, guid: 9b0cda9a59730394f8a11ac1e78d39a0, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-4730098370822589688
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Scary Hit 1-2_{-4730098370822589688}
+  m_AudioClip: {fileID: 8300000, guid: dfd4f874504027f4f9bc64afadf5a0be, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-2607253061275429831
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Scary Hit 2_{-2607253061275429831}
+  m_AudioClip: {fileID: 8300000, guid: f4c127f79046d67419ad851104b86eeb, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &139692644455700759
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Fear Horror Whoosh_{139692644455700759}
+  m_AudioClip: {fileID: 8300000, guid: 6a5c10b68d14d454bb1de357e8134e8a, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &671715704982897260
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Scary Exhaling_{671715704982897260}
+  m_AudioClip: {fileID: 8300000, guid: b4b057db734bd194a98de172549a9471, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &2025196127122156605
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Scary Hit 1_{2025196127122156605}
+  m_AudioClip: {fileID: 8300000, guid: 9bc4b69ff88eff649b3aac785d6d80ab, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &2129617659243595391
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Scary Impact 3_{2129617659243595391}
+  m_AudioClip: {fileID: 8300000, guid: 96cb50dcaa8bad34bafd4428583e869a, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &2301674034326907298
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Scary Hit 3-2_{2301674034326907298}
+  m_AudioClip: {fileID: 8300000, guid: cf7a27186a723a44ab9737420c0f10de, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &3276241498094472378
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Gremlin Critter Scared_{3276241498094472378}
+  m_AudioClip: {fileID: 8300000, guid: c9238ad095eecb54bbd617b9acaa3e15, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &5412690107494800367
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Scary Impact 1_{5412690107494800367}
+  m_AudioClip: {fileID: 8300000, guid: b4fa2c725e4cb9e4bb410fa8efc26482, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &6232358117217501629
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Scary Hit 2-2_{6232358117217501629}
+  m_AudioClip: {fileID: 8300000, guid: 1b2b0d31c260ae1448cbde5a16d2fd74, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GenericRandomSound
+  m_Volume: 0
+  m_Pitch: 0
+  m_AutomaticTriggerTime: 0
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: 0, y: 0}
+  m_PitchRandomizationRange: {x: 0, y: 0}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: 139692644455700759}
+  - {fileID: 3276241498094472378}
+  - {fileID: -6353604372913670574}
+  - {fileID: -8030654491768718461}
+  - {fileID: -5984450878210732119}
+  - {fileID: 6715757273185834399}
+  - {fileID: 671715704982897260}
+  - {fileID: 2025196127122156605}
+  - {fileID: -4730098370822589688}
+  - {fileID: -2607253061275429831}
+  - {fileID: 6232358117217501629}
+  - {fileID: -6286116024840203620}
+  - {fileID: 2301674034326907298}
+  - {fileID: -6965971460370715357}
+  - {fileID: 8235997882202892286}
+  - {fileID: 5412690107494800367}
+  - {fileID: 9068268193501453633}
+  - {fileID: 2129617659243595391}
+  m_AvoidRepeatingLast: 1
+  m_PlaybackMode: 2
+  m_TriggerMode: 1
+  m_AutomaticTriggerMode: 1
+  m_LoopMode: 2
+  m_VolumeRandomizationEnabled: 0
+  m_PitchRandomizationEnabled: 0
+  m_AutomaticTriggerTimeRandomizationEnabled: 0
+  m_LoopCountRandomizationEnabled: 0
+--- !u!1233149941 &6715757273185834399
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Pass By-Scary_Deep-Scary-Pass-By_SDT3-1113_{6715757273185834399}
+  m_AudioClip: {fileID: 8300000, guid: bbc0cf69d131ca0429b98298af760925, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &8235997882202892286
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Scary Hit 4-2_{8235997882202892286}
+  m_AudioClip: {fileID: 8300000, guid: ca31f204d88a31a4e9b92e180d29bb8b, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &9068268193501453633
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Scary Impact 2_{9068268193501453633}
+  m_AudioClip: {fileID: 8300000, guid: df6c8c71ec73b534fa42de39d5c364e6, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
