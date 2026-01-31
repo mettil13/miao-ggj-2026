@@ -10,10 +10,15 @@ public class Pecora : MonoBehaviour
     private float distanceFromCamera;
     private Vector3 offset;
 
+    public float maxLaunchMagnitude = 1;
+
+    Vector3 dragVector;
+
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
-        mainCamera = Camera.main;
+        mainCamera = PecoraMinigame.instance.mainCamera;
+        PecoraMinigame.instance.OnNewPecora(this);
     }
 
 
@@ -22,33 +27,48 @@ public class Pecora : MonoBehaviour
     {
         if (Mouse.current.leftButton.wasPressedThisFrame)
         {
+            /*
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(ray, out RaycastHit hit))
             {
                 if (hit.transform == transform)
-                    OnMouseDown();
+                    OnMouseDowno();
             }
+            */
+
+            Vector3 screenPos = mainCamera.WorldToViewportPoint(transform.position);
+           Vector3 mousePos = mainCamera.ScreenToViewportPoint(Input.mousePosition) ;
+
+
+            if(Vector2.Distance(screenPos, mousePos) < 0.07f)
+                OnMouseDowno();
         
         }
         if (Mouse.current.leftButton.wasReleasedThisFrame)
         {
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            if (Physics.Raycast(ray, out RaycastHit hit))
-            {
-                if (hit.transform == transform)
-                    OnMouseUp();
-            }
-        
+            if(dragging)
+                    OnMouseUpo();
         }
 
         if(dragging)
-            OnMouseDrag();
+            OnMouseDraggo();
+        else
+        {
+            if(transform.position.x > 0f && transform.position.y < 1f)
+                GetComponent<Rigidbody>().AddForce(Vector3.right* 10);
+
+            if(transform.position.x > 14f)
+            {
+                PecoraMinigame.instance.OnPecoraExit(this);
+            }
+        }
 
     }
 
 
-    void OnMouseDown()
+    void OnMouseDowno()
     {
+        dragVector = Vector3.zero;
         dragging=true;
         
         distanceFromCamera = Vector3.Distance(
@@ -63,16 +83,28 @@ public class Pecora : MonoBehaviour
         rb.isKinematic = true;
     }
 
-    void OnMouseDrag()
+Vector3 lastPos;
+    void OnMouseDraggo()
     {
         Vector3 mouseWorldPos = GetMouseWorldPosition();
-        transform.position = mouseWorldPos + offset;
+
+        Vector3 newPos = mouseWorldPos + offset;
+
+        Vector3 delta = newPos - lastPos;
+        dragVector = delta / Time.deltaTime;
+        dragVector.z=0;
+
+
+        transform.position = newPos;
+        lastPos = newPos;
     }
 
-    void OnMouseUp()
+    void OnMouseUpo()
     {
         rb.isKinematic = false;
         dragging=false;
+
+        rb.linearVelocity = dragVector.normalized * Mathf.Min(dragVector.magnitude, maxLaunchMagnitude);
     }
 
     private Vector3 GetMouseWorldPosition()
