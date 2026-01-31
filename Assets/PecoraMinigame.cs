@@ -32,6 +32,11 @@ public class PecoraMinigame : MonoBehaviour
         Disable();
     }
 
+    void Update()
+    {
+        audioSource.volume = ((float)pecoreCount-3f) / 10f; 
+    }
+
     public void OnNewPecora(Pecora pecora)
     {
         pecore.Add(pecora);
