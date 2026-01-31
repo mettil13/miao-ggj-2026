@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour
         Vector2 delta = value.Get<Vector2>();
 
 
-        Shader.SetGlobalFloat("_Intensity", Mathf.Clamp(delta.sqrMagnitude, 0, 1) * intensity + baseMovement);
+        Shader.SetGlobalFloat("_Intensity",( Mathf.Clamp(delta.sqrMagnitude, 0, 1) * intensity + baseMovement)*0.1666f);
 
         Vector3 rotation = gO.transform.eulerAngles;
         if(rotation.x > 180) {
@@ -43,5 +43,15 @@ public class PlayerController : MonoBehaviour
 
     void OnToggleMask(InputValue value) {
         mask.ToggleMask();
+
+        BlobbiPalliScreenSpace.instance.SetMode(mask.isMaskDown);
+        if (mask.isMaskDown)
+        {
+            PecoraMinigame.instance.Enable();
+        }
+        else
+        {
+            PecoraMinigame.instance.Disable();
+        }
     }
 }
