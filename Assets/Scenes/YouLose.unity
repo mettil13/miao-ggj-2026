@@ -222,7 +222,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 598cf8120811c3a43be7792f7a2a0793, type: 3}
+  m_Resource: {fileID: 8300000, guid: ee82c7f1a19ef4f478b428bb990b4fc2, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -429,8 +429,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Vedere Pallo dormire beato ha commosso il mostro, che \xE8 diventato buono
-    e ha deciso di fare la ninna con lui"
+  m_text: "Pallo \xE8 morto, ed \xE8 solo colpa tua. Mostro."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8ef9c500c15d0a74a9fc06df2f20ae02, type: 2}
   m_sharedMaterial: {fileID: -6459714572250560744, guid: 8ef9c500c15d0a74a9fc06df2f20ae02, type: 2}
@@ -567,7 +566,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Bravi, grazie!
+  m_text: Noo Pallo!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b5119e932d0e3824fba3fef7cdaa3974, type: 2}
   m_sharedMaterial: {fileID: 8308374991988603736, guid: b5119e932d0e3824fba3fef7cdaa3974, type: 2}
@@ -1150,8 +1149,8 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 3162bdc3e58844a4799f1d517eb0fe18, type: 3}
-  m_Color: {r: 0.25157225, g: 0.25157225, b: 0.25157225, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 22bf18c36d0944349bbe23f8b115c266, type: 3}
+  m_Color: {r: 0.81761, g: 0.81761, b: 0.81761, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1725,7 +1724,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Nice Ninna
+  m_text: Oh Nooooooo
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8ef9c500c15d0a74a9fc06df2f20ae02, type: 2}
   m_sharedMaterial: {fileID: -6459714572250560744, guid: 8ef9c500c15d0a74a9fc06df2f20ae02, type: 2}
@@ -1734,8 +1733,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4288731647
-  m_fontColor: {r: 1, g: 0.85286397, b: 0.62578607, a: 1}
+    rgba: 4278196479
+  m_fontColor: {r: 1, g: 0.093972206, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
