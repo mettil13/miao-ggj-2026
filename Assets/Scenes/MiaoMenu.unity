@@ -8336,7 +8336,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1435972164}
         m_TargetAssemblyTypeName: MiaoMenu, Assembly-CSharp
-        m_MethodName: OnPlayClick
+        m_MethodName: OnNinnaClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
