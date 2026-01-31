@@ -5,9 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/MiaRoom.unity
+    guid: 28870d9a856edf34490f9e6c6e2f389e
+  - enabled: 1
+    path: Assets/Scenes/YouLose.unity
+    guid: 95d06ee80341f3f46896c89f797b8b0c
+  - enabled: 1
+    path: Assets/Scenes/YouWin.unity
+    guid: 114ab2e84e9402543b4674faea0598d1
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -31,7 +31,7 @@ public class PlayerController : MonoBehaviour
         rotation += new Vector3(-delta.y * sensibility, delta.x * sensibility, 0);
         rotation = new Vector3(Mathf.Clamp(rotation.x, minRotation.x, maxRotation.x), Mathf.Clamp(rotation.y, minRotation.y, maxRotation.y), 0);
 
-        Debug.Log(rotation);
+        //Debug.Log(rotation);
         gO.transform.eulerAngles = rotation;
     }
 
