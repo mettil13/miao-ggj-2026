@@ -373,6 +373,8 @@ MonoBehaviour:
   lookingLeft: 0
   audioSource: {fileID: 253455530}
   monster: {fileID: 0}
+  animator: {fileID: 253455532}
+  pivot: {fileID: 773538492}
 --- !u!82 &253455530
 AudioSource:
   m_ObjectHideFlags: 0
@@ -494,7 +496,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 253455528}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 51d9b0f95af17be439e2d30001d1a058, type: 2}
   m_CullingMode: 0
@@ -966,7 +968,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -1070,8 +1072,8 @@ MonoBehaviour:
   - {x: 8, y: 16, z: 0}
   - {x: 9, y: 18, z: 0}
   material: {fileID: 2100000, guid: 0b4661bd0a98f594bab5014279969509, type: 2}
-  pecoroCameraFade: 0.7032715
-  modeL: 0.7032715
+  pecoroCameraFade: 0
+  modeL: 0
 --- !u!1 &372731970
 GameObject:
   m_ObjectHideFlags: 0
@@ -2103,6 +2105,8 @@ MonoBehaviour:
   lookingLeft: 0
   audioSource: {fileID: 1033063169}
   monster: {fileID: 0}
+  animator: {fileID: 1033063171}
+  pivot: {fileID: 1473955588}
 --- !u!82 &1033063169
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2224,7 +2228,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1033063167}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: e5b711c5f3cc95041b291e65fd41b9b5, type: 2}
   m_CullingMode: 0
@@ -3176,6 +3180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14f94ff5a63f15041844233bf392f6ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  loseTime: 10
   ninnaValue: 0
   victoryNinnaValue: 6.66
   ninnaBar: {fileID: 1655338272}
@@ -4242,6 +4247,8 @@ MonoBehaviour:
   lookingLeft: 0
   audioSource: {fileID: 2004135103}
   monster: {fileID: 0}
+  animator: {fileID: 2004135105}
+  pivot: {fileID: 1098595225}
 --- !u!82 &2004135103
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4363,7 +4370,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2004135101}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: e81ec72e53d8b4441988409d51d6ed3a, type: 2}
   m_CullingMode: 0
@@ -4389,6 +4396,10 @@ PrefabInstance:
       propertyPath: m_TargetTexture
       value: 
       objectReference: {fileID: 8600000, guid: 0d361f2ab9aeb0047abec5a7d24b0b13, type: 2}
+    - target: {fileID: 3023064440344852413, guid: 7597aea74bb4a6944a229257b24f246e, type: 3}
+      propertyPath: m_Intensity
+      value: 0.03
+      objectReference: {fileID: 0}
     - target: {fileID: 4441816451255106343, guid: 7597aea74bb4a6944a229257b24f246e, type: 3}
       propertyPath: dirlight
       value: 
