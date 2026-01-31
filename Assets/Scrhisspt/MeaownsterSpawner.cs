@@ -15,11 +15,15 @@ public class MeaownsterSpawner : MonoBehaviour
     public Animation anim;
     public Transform pivot;
 
+    private int _randomMax;
+
     public void SpawnMonster(GameObject monster, bool isKitten) {
         if (this.monster == null) {
             hasSpawned = false;
             this.monster = monster;
             this.isKitten = isKitten;
+
+            _randomMax = 2;
         }
     }
 
@@ -27,7 +31,7 @@ public class MeaownsterSpawner : MonoBehaviour
         if (monster && Time.time > waitTime) {
         
             int rand = Random.Range(0, 4);
-            if(rand > 2 && !hasSpawned) {
+            if(rand > _randomMax && !hasSpawned) {
                 instantiatedMonster = Instantiate(monster);
                 instantiatedMonster.transform.position = transform.position;
                 instantiatedMonster.transform.parent = transform;
