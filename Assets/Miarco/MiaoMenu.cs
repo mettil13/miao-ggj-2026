@@ -20,6 +20,11 @@ public class MiaoMenu : MonoBehaviour
 
     }
 
+    public void OnNinnaClick()
+    {
+        LoadScene("SpaceToNinna");
+    }
+
     public void OnPlayClick()
     {
         LoadScene("GameScene");
