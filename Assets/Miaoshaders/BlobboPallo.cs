@@ -16,6 +16,7 @@ public class BlobboPallo : MonoBehaviour
 
     public void OnDestroy()
     {
-        BlobbiPalliScreenSpace.instance.RemovePallo(this.transform);
+        if(BlobbiPalliScreenSpace.instance)
+            BlobbiPalliScreenSpace.instance.RemovePallo(this.transform);
     }
 }

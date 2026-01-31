@@ -16,13 +16,13 @@ void GetDist_float(int index,float3 pixelSS, out float value)
         float dist = saturate(1 - length(_SSPoints[i].rg - pixelSS.rg) * 1);
         value += pow(dist, 3.2);
     }
-    value *= _PecoroCameraFade*10;
+    value *= _PecoroCameraFade*1;
 } 
 
 void Pecoro_float(float3 pixelSS, out float value, out float value2)
 {
     value = saturate(1 - length(pixelSS.rg - float2(0.5, 0.5)) * 2 + cos(_Time * 30 + pixelSS.rg*10) * 0.1);
-    value2 = saturate(value * 2.5);
+    value2 = saturate(value * 1.5);
     value2 *= _PecoroCameraFade;
     value *= _PecoroCameraFade;
 }
