@@ -393,7 +393,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &226104063
 SpriteRenderer:
   serializedVersion: 2
@@ -1512,8 +1512,8 @@ MonoBehaviour:
   mask: {fileID: 1923569004}
   manager: {fileID: 0}
   movingMaterial: {fileID: 0}
-  baseMovement: 0.01
-  intensity: 0.01
+  baseMovement: 0.02
+  intensity: 0.05
 --- !u!114 &627300943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1983,7 +1983,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &1050551845
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2203,9 +2203,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: 516a2bda63ce11f47aed93125ca91966, type: 2}
     - target: {fileID: -7918335002988649766, guid: b851107158b67d742a8e59192e697621, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 571d032c0c32ca747b5d2b0b5f5e7ff8, type: 2}
+    - target: {fileID: -7918335002988649766, guid: b851107158b67d742a8e59192e697621, type: 3}
       propertyPath: 'm_Materials.Array.data[1]'
       value: 
       objectReference: {fileID: 2100000, guid: 50ea136d93710f946a4b1e1ab9498e51, type: 2}
+    - target: {fileID: -7918335002988649766, guid: b851107158b67d742a8e59192e697621, type: 3}
+      propertyPath: 'm_Materials.Array.data[2]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a65bf2eee3982b4db6726b0fa763f2f, type: 2}
     - target: {fileID: -7824753648676844136, guid: b851107158b67d742a8e59192e697621, type: 3}
       propertyPath: m_LocalPosition.z
       value: -1.654
