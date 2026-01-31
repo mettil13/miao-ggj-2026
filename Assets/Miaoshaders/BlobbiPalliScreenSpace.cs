@@ -73,6 +73,7 @@ public class BlobbiPalliScreenSpace : MonoBehaviour
         }
 
         buffer.SetData(ssPoints);
+        material.SetFloat("_SSPointsCount", _palli.Count);
         material.SetBuffer("_SSPoints", buffer);
 
         modeL = _mode ? Mathf.Clamp01(modeL + Time.deltaTime*0.5f) : Mathf.Clamp01(modeL - Time.deltaTime);

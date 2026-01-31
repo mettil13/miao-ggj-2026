@@ -13,4 +13,9 @@ public class BlobboPallo : MonoBehaviour
     {
         this.transform.LookAt(Camera.main.transform.position);
     }
+
+    public void OnDestroy()
+    {
+        BlobbiPalliScreenSpace.instance.RemovePallo(this.transform);
+    }
 }
