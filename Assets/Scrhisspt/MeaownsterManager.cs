@@ -20,7 +20,7 @@ public class MeaownsterManager : MonoBehaviour
     public static MeaownsterManager instance;
 
     private void Awake() {
-        if (instance != null) {
+        if (instance == null) {
             instance = this;
         }
     }
@@ -34,7 +34,7 @@ public class MeaownsterManager : MonoBehaviour
             audioSources[randomAudioIndex].resource = genericClip;
             audioSources[randomAudioIndex].Play();
 
-            randomAudioWaitTime = Random.Range(0.0f, 5.0f) + Time.time;
+            randomAudioWaitTime = Random.Range(0.0f, 10.0f) + Time.time;
         }
 
         if (monsterSpawnWaitTime < Time.time) {

@@ -12,6 +12,10 @@ public class PecoraMinigame : MonoBehaviour
 
     List<Pecora> pecore =new List<Pecora>();
 
+    private AudioSource audioSource;
+
+    public PecoraaCannon cannon;
+
     public int pecoreCount
     {
         get
@@ -23,6 +27,14 @@ public class PecoraMinigame : MonoBehaviour
     void Awake()
     {
         instance = this;
+
+        audioSource = GetComponent<AudioSource>();
+        Disable();
+    }
+
+    void Update()
+    {
+        audioSource.volume = ((float)pecoreCount-3f) / 10f; 
     }
 
     public void OnNewPecora(Pecora pecora)
@@ -38,11 +50,27 @@ public class PecoraMinigame : MonoBehaviour
         onPecoraExit?.Invoke();
     }
 
-    public void Reset()
+    void Reset()
     {
         foreach(var pecora in pecore)
             GameObject.Destroy(pecora.gameObject);
 
         pecore.Clear();
+    }
+
+    public void Enable()
+    {
+        Reset();
+
+        audioSource.enabled=true; 
+        cannon.enabled=true;
+    }
+
+    public void Disable()
+    {
+        Reset();
+
+        audioSource.enabled=false;
+        cannon.enabled=false;
     }
 }
