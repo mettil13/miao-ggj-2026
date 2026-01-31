@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-6519637946429859130
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Cat Crying 3_{-6519637946429859130}
+  m_AudioClip: {fileID: 8300000, guid: 192f040f4bd76764a98ecebd42c2f500, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-4857083676476076641
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Cat Crying 2_{-4857083676476076641}
+  m_AudioClip: {fileID: 8300000, guid: d17c965295d94524cb700145d68e5f89, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-3451859826074713923
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Cat Crying 5_{-3451859826074713923}
+  m_AudioClip: {fileID: 8300000, guid: bfcf2b07156ed3d4c8f85b6b2acec6bc, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-892002023330436622
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Cat Crying 4_{-892002023330436622}
+  m_AudioClip: {fileID: 8300000, guid: e68c2148c7571fa43985b38caf59d2ef, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &3625513855437086345
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Cat Crying 1_{3625513855437086345}
+  m_AudioClip: {fileID: 8300000, guid: 776bd90752f1f8348a583bd04d2db460, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CatDeathSound
+  m_Volume: 0
+  m_Pitch: 0
+  m_AutomaticTriggerTime: 0
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: 0, y: 0}
+  m_PitchRandomizationRange: {x: -53.571373, y: 64.285614}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: 3625513855437086345}
+  - {fileID: -4857083676476076641}
+  - {fileID: -6519637946429859130}
+  - {fileID: -892002023330436622}
+  - {fileID: -3451859826074713923}
+  m_AvoidRepeatingLast: 1
+  m_PlaybackMode: 2
+  m_TriggerMode: 0
+  m_AutomaticTriggerMode: 1
+  m_LoopMode: 2
+  m_VolumeRandomizationEnabled: 0
+  m_PitchRandomizationEnabled: 1
+  m_AutomaticTriggerTimeRandomizationEnabled: 0
+  m_LoopCountRandomizationEnabled: 0

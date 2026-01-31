@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-3400299289276218352
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 11098 beast killing hit_{-3400299289276218352}
+  m_AudioClip: {fileID: 8300000, guid: c25766b811a84eb4abe545426215cc43, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &1419949105758545247
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Monster Death B_{1419949105758545247}
+  m_AudioClip: {fileID: 8300000, guid: 29a7ce0cde26c1e47a536b3798d2506d, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MonsterDeathSound
+  m_Volume: 0
+  m_Pitch: 0
+  m_AutomaticTriggerTime: 0
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: -2.1428585, y: 2.857151}
+  m_PitchRandomizationRange: {x: 0, y: 0}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: -3400299289276218352}
+  - {fileID: 9059723538847600118}
+  - {fileID: 1419949105758545247}
+  - {fileID: 6727887681277222677}
+  m_AvoidRepeatingLast: 0
+  m_PlaybackMode: 2
+  m_TriggerMode: 0
+  m_AutomaticTriggerMode: 1
+  m_LoopMode: 2
+  m_VolumeRandomizationEnabled: 1
+  m_PitchRandomizationEnabled: 0
+  m_AutomaticTriggerTimeRandomizationEnabled: 0
+  m_LoopCountRandomizationEnabled: 0
+--- !u!1233149941 &6727887681277222677
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Monster Killing Hit_{6727887681277222677}
+  m_AudioClip: {fileID: 8300000, guid: a92c8af52a4b6e34f8ea7dfded4cda35, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &9059723538847600118
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Epic Monster Death Hit_{9059723538847600118}
+  m_AudioClip: {fileID: 8300000, guid: 3a51fd7b4039fe341949d622bf01ebf4, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
