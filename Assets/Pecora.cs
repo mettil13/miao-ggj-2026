@@ -54,10 +54,11 @@ public class Pecora : MonoBehaviour
             OnMouseDraggo();
         else
         {
-            if(transform.position.x > 0f && transform.position.y < 1f)
+            Vector3 trPos = PecoraMinigame.instance.transform.InverseTransformPoint(transform.position);
+            if(trPos.x > 0f && trPos.y < 1f)
                 GetComponent<Rigidbody>().AddForce(Vector3.right* 10);
 
-            if(transform.position.x > 14f)
+            if(trPos.x > 14f)
             {
                 PecoraMinigame.instance.OnPecoraExit(this);
             }
