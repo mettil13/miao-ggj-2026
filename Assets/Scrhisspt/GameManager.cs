@@ -20,17 +20,14 @@ public class GameManager : MonoBehaviour
     public Slider ninnaBar;
 
     public PlayerController playerController;
+    public PecoraMinigame pecoraMinigame;
+
+    private void Start() {
+        pecoraMinigame.onPecoraExit += OnPecoraPoint;
+    }
 
     void Update() {
-        if (playerController.mask.isMaskDown) {
-            if (ninnaValue < victoryNinnaValue) {
-                ninnaValue += Time.deltaTime;
-            }
-            else {
-                SceneManager.LoadScene("YouWin");
-            }
-        }
-        else {
+        if (!playerController.mask.isMaskDown) {
             if (ninnaValue > 0) {
                 ninnaValue -= Time.deltaTime;
             }
@@ -40,5 +37,15 @@ public class GameManager : MonoBehaviour
             ninnaBar.value = ninnaValue / victoryNinnaValue;
         }
 
+    }
+
+    public void OnPecoraPoint() {
+        if (ninnaValue < victoryNinnaValue) {
+            //ninnaValue += Time.deltaTime;
+            ninnaValue += 0.5f;
+        }
+        else {
+            SceneManager.LoadScene("YouWin");
+        }
     }
 }

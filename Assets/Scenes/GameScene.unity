@@ -1939,7 +1939,10 @@ MonoBehaviour:
   - {fileID: 1002686581981780139, guid: b6c2113997ec31741a1670fcb8d55e1b, type: 3}
   - {fileID: 1002686581981780139, guid: 331aec38ff6697041b4af862e8dfb904, type: 3}
   kittens:
-  - {fileID: 6432643932152037248, guid: a68b7b88c0b75bf4db020ad6bae4047e, type: 3}
+  - {fileID: 6432643932152037248, guid: 9989374c447033a4db4f13e5562516d4, type: 3}
+  - {fileID: 6432643932152037248, guid: 1d41c39968df8e841a6ad10b1a1e40e0, type: 3}
+  - {fileID: 6432643932152037248, guid: 4b7198e55b0d44c47abcd194a4f40674, type: 3}
+  - {fileID: 6432643932152037248, guid: e2d2d1fd6b77695488eff6293f70f700, type: 3}
   genericClip: {fileID: 6418180475301049370, guid: e36c9184b32d44e4fad4c392bea69067, type: 2}
   catsClip: {fileID: 6418180475301049370, guid: 38440ce06ba61584d94844d1ff060516, type: 2}
   monstersClip: {fileID: 6418180475301049370, guid: 184283d5afa9bc2498e01213c5324f31, type: 2}
@@ -2486,7 +2489,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -2093772787462966335, guid: b851107158b67d742a8e59192e697621, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.675
+      value: 1.758
       objectReference: {fileID: 0}
     - target: {fileID: -2045257923548263128, guid: b851107158b67d742a8e59192e697621, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3032,6 +3035,7 @@ MonoBehaviour:
   victoryNinnaValue: 6.66
   ninnaBar: {fileID: 1655338272}
   playerController: {fileID: 627300942}
+  pecoraMinigame: {fileID: 1778288216}
 --- !u!4 &1536572006
 Transform:
   m_ObjectHideFlags: 0
@@ -3608,6 +3612,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1778288216 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4441816451255106343, guid: 7597aea74bb4a6944a229257b24f246e, type: 3}
+  m_PrefabInstance: {fileID: 2059046460}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 196fd19aa37405d58b2d7f6cdc8aece8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1 &1783442798
 GameObject:
   m_ObjectHideFlags: 0
