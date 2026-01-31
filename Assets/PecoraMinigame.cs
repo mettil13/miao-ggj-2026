@@ -12,7 +12,7 @@ public class PecoraMinigame : MonoBehaviour
 
     List<Pecora> pecore =new List<Pecora>();
 
-    private AudioSource audioSource;
+    public AudioSource audioSource;
 
     public PecoraaCannon cannon;
 
@@ -28,12 +28,14 @@ public class PecoraMinigame : MonoBehaviour
     {
         instance = this;
 
-        audioSource = GetComponent<AudioSource>();
         Disable();
     }
 
     void Update()
     {
+        if(Camera.main != null)
+            audioSource.transform.position = Camera.main.transform.position;
+
         audioSource.volume = ((float)pecoreCount-3f) / 10f; 
     }
 
