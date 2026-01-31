@@ -3,10 +3,10 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using DG.Tweening;
 using UnityEngine.UI;
+using Unity.VisualScripting;
 
 public class MiaoMenu : MonoBehaviour
 {
-
     public Image fadeImage;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -33,6 +33,11 @@ public class MiaoMenu : MonoBehaviour
     public void OnMainMenuClick()
     {
         LoadScene("MiaoMenu");
+    }
+
+    public void OnQuitClick()
+    {
+        Application.Quit();
     }
 
     public void LoadScene(string sceneName)
