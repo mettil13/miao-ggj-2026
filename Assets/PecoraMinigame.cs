@@ -31,6 +31,7 @@ public class PecoraMinigame : MonoBehaviour
         instance = this;
 
         Disable();
+        this.gameObject.SetActive(false);
     }
 
     void Update()
@@ -71,6 +72,7 @@ public class PecoraMinigame : MonoBehaviour
 
         audioSource.enabled=true; 
         cannon.enabled=true;
+        this.gameObject.SetActive(true);
     }
 
     public void Disable()

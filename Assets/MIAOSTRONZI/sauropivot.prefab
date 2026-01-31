@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8487679622993796762}
+  - component: {fileID: 5351709850988009268}
   m_Layer: 0
   m_Name: sauropivot
   m_TagString: Untagged
@@ -33,6 +34,18 @@ Transform:
   - {fileID: 2000470960275930449}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5351709850988009268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002686581981780139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22c889c532ca0b3408f8c1c1d8e6b4d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BlobboPallo
 --- !u!1 &2581134554368335015
 GameObject:
   m_ObjectHideFlags: 0

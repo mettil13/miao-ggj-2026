@@ -16,7 +16,7 @@ public class BlobbiPalliScreenSpace : MonoBehaviour
     public Material material;
     ComputeBuffer buffer;
     public float pecoroCameraFade = 1;
-    private bool  _mode = true;
+    private bool  _mode = false;
     public float modeL = 0;
     #endregion
 
@@ -25,10 +25,14 @@ public class BlobbiPalliScreenSpace : MonoBehaviour
     {
         _instance = this;
     }
+    private void OnDestroy()
+    {
+        _instance = null;
+    }
 
     private void Start()
     {
-
+        _palli = new List<Transform>();
         for (int i = 0; i < ssPoints.Length; i++)
         {
             ssPoints[i] = new Vector3(i, i * 2, 0);
@@ -61,6 +65,8 @@ public class BlobbiPalliScreenSpace : MonoBehaviour
         int i = 0;
         foreach (Transform t in _palli)
         {
+            if(t==null) continue;
+
             Vector3 ssPos = Camera.main.WorldToViewportPoint(t.position);
             ssPoints[i] = ssPos;
             i++;
