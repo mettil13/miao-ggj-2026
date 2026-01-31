@@ -373,7 +373,7 @@ MonoBehaviour:
   lookingLeft: 0
   audioSource: {fileID: 253455530}
   monster: {fileID: 0}
-  animator: {fileID: 253455532}
+  anim: {fileID: 253455532}
   pivot: {fileID: 773538492}
 --- !u!82 &253455530
 AudioSource:
@@ -488,28 +488,23 @@ Transform:
   - {fileID: 773538492}
   m_Father: {fileID: 905706582}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &253455532
-Animator:
-  serializedVersion: 7
+--- !u!111 &253455532
+Animation:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 253455528}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 51d9b0f95af17be439e2d30001d1a058, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
+  serializedVersion: 4
+  m_Animation: {fileID: 7400000, guid: e1cfc6b59cae66c44aa05462e110bab5, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: e1cfc6b59cae66c44aa05462e110bab5, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
   m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
+  m_UpdateMode: 0
+  m_CullingType: 0
 --- !u!1 &282980442
 GameObject:
   m_ObjectHideFlags: 0
@@ -2105,7 +2100,7 @@ MonoBehaviour:
   lookingLeft: 0
   audioSource: {fileID: 1033063169}
   monster: {fileID: 0}
-  animator: {fileID: 1033063171}
+  anim: {fileID: 1033063171}
   pivot: {fileID: 1473955588}
 --- !u!82 &1033063169
 AudioSource:
@@ -2220,28 +2215,23 @@ Transform:
   - {fileID: 1473955588}
   m_Father: {fileID: 905706582}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &1033063171
-Animator:
-  serializedVersion: 7
+--- !u!111 &1033063171
+Animation:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1033063167}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e5b711c5f3cc95041b291e65fd41b9b5, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
+  serializedVersion: 4
+  m_Animation: {fileID: 7400000, guid: debf6d01dcc362445b865ef857e73c0c, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: debf6d01dcc362445b865ef857e73c0c, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
   m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
+  m_UpdateMode: 0
+  m_CullingType: 0
 --- !u!1 &1050551844
 GameObject:
   m_ObjectHideFlags: 0
@@ -4247,7 +4237,7 @@ MonoBehaviour:
   lookingLeft: 0
   audioSource: {fileID: 2004135103}
   monster: {fileID: 0}
-  animator: {fileID: 2004135105}
+  anim: {fileID: 2004135105}
   pivot: {fileID: 1098595225}
 --- !u!82 &2004135103
 AudioSource:
@@ -4362,28 +4352,23 @@ Transform:
   - {fileID: 1098595225}
   m_Father: {fileID: 905706582}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &2004135105
-Animator:
-  serializedVersion: 7
+--- !u!111 &2004135105
+Animation:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2004135101}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e81ec72e53d8b4441988409d51d6ed3a, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
+  serializedVersion: 4
+  m_Animation: {fileID: 7400000, guid: a8bba48643c9ec04d886a8305a30fc2a, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: a8bba48643c9ec04d886a8305a30fc2a, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
   m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
+  m_UpdateMode: 0
+  m_CullingType: 0
 --- !u!1001 &2059046460
 PrefabInstance:
   m_ObjectHideFlags: 0

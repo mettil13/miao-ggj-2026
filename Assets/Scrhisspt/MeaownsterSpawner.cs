@@ -11,7 +11,7 @@ public class MeaownsterSpawner : MonoBehaviour
     private bool hasSpawned;
     private float spawnTime = float.MaxValue;
     private float waitTime = 0;
-    public Animator animator;
+    public Animation anim;
     public Transform pivot;
 
     public void SpawnMonster(GameObject monster, bool isKitten) {
@@ -33,7 +33,8 @@ public class MeaownsterSpawner : MonoBehaviour
                 instantiatedMonster.transform.parent = transform;
                 instantiatedMonster.GetComponentInChildren<CameraTriggrrrrr>().onLASERSTRONZO.AddListener(DespawnMonster);
                 instantiatedMonster.transform.parent = this.pivot;
-                animator.Play("DEFAULT");
+                anim.Stop();
+                anim.Play();
                 spawnTime = Time.time;
                 hasSpawned = true;
             }
