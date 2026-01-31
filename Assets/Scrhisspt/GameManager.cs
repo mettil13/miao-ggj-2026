@@ -46,11 +46,18 @@ public class GameManager : MonoBehaviour
             ninnaValue += 0.5f;
         }
         else {
-            SceneManager.LoadScene("YouWin");
+            WinGame();
         }
     }
 
     public void LoseGame() {
+        Cursor.lockState = CursorLockMode.None;
         SceneManager.LoadScene("YouLose");
+    }
+
+    public void WinGame() {
+        Cursor.lockState = CursorLockMode.None;
+        SceneManager.LoadScene("YouWin");
+
     }
 }
