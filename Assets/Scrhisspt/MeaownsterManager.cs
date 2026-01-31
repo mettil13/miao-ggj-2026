@@ -14,6 +14,10 @@ public class MeaownsterManager : MonoBehaviour
     public AudioResource catsClip;
     public AudioResource monstersClip;
 
+    public AudioResource catsDeathClip;
+    public AudioResource monstersDeathClip;
+
+
     private float randomAudioWaitTime = 0;
     private float monsterSpawnWaitTime = 0;
 

@@ -2003,6 +2003,8 @@ MonoBehaviour:
   genericClip: {fileID: 6418180475301049370, guid: e36c9184b32d44e4fad4c392bea69067, type: 2}
   catsClip: {fileID: 6418180475301049370, guid: 38440ce06ba61584d94844d1ff060516, type: 2}
   monstersClip: {fileID: 6418180475301049370, guid: 184283d5afa9bc2498e01213c5324f31, type: 2}
+  catsDeathClip: {fileID: 6418180475301049370, guid: 6188b4a5292bf6d44bee054bfdd58925, type: 2}
+  monstersDeathClip: {fileID: 6418180475301049370, guid: ef0c5a8d6eaf5f644af35ae183bb1137, type: 2}
 --- !u!4 &905706582
 Transform:
   m_ObjectHideFlags: 0
