@@ -9,11 +9,12 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
 
     private void Awake() {
-        if (instance != null) {
+        if (instance == null) {
             instance = this;
         }
     }
 
+    public float loseTime = 10.0f;
 
     public float ninnaValue = 0;
     public float victoryNinnaValue = 6.66f;
@@ -47,5 +48,9 @@ public class GameManager : MonoBehaviour
         else {
             SceneManager.LoadScene("YouWin");
         }
+    }
+
+    public void LoseGame() {
+        SceneManager.LoadScene("YouLose");
     }
 }

@@ -16,6 +16,8 @@ public class PecoraMinigame : MonoBehaviour
 
     public PecoraaCannon cannon;
 
+    public Light dirlight;
+
     public int pecoreCount
     {
         get
@@ -36,7 +38,10 @@ public class PecoraMinigame : MonoBehaviour
         if(Camera.main != null)
             audioSource.transform.position = Camera.main.transform.position;
 
-        audioSource.volume = ((float)pecoreCount-3f) / 10f; 
+        audioSource.volume = ((float)pecoreCount-3f) / 10f;
+
+
+        dirlight.intensity = BlobbiPalliScreenSpace.instance.modeL;
     }
 
     public void OnNewPecora(Pecora pecora)
