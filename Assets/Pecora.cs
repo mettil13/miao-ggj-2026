@@ -12,6 +12,7 @@ public class Pecora : MonoBehaviour
 
     public float maxLaunchMagnitude = 1;
 
+
     Vector3 dragVector;
 
     void Awake()
@@ -110,6 +111,9 @@ Vector3 lastPos;
 
     private Vector3 GetMousePos()
     {
+        if(Camera.main == null)
+            return Input.mousePosition;
+
         Vector3 p = Input.mousePosition;
 
         Vector3 vP = Camera.main.ScreenToViewportPoint(p);
