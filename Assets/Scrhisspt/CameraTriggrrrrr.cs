@@ -23,4 +23,5 @@ public class CameraTriggrrrrr : MonoBehaviour
         yield return new WaitForSecondsRealtime(tempoToWatch);
         onLASERSTRONZO.Invoke();
     }
+
 }
