@@ -24,7 +24,8 @@ public class MIAskeredOnDream : MonoBehaviour
     IEnumerator EnableLaser()
     {
         onDisable = false;
-        yield return new WaitForSecondsRealtime(0.5f);
+        yield return null;
+        //yield return new WaitForSecondsRealtime(0.5f);
         laser.enabled = true;
         laser.gameObject.SetActive(true);
     }
