@@ -357,5 +357,5 @@ MonoBehaviour:
   onLASERSTRONZO:
     m_PersistentCalls:
       m_Calls: []
-  tempoToWatch: 3.5
+  tempoToWatch: 2.7
   monsterRenderer: {fileID: 7055212071669911541}
