@@ -43,7 +43,7 @@ public class GameManager : MonoBehaviour
     public void OnPecoraPoint() {
         if (ninnaValue < victoryNinnaValue) {
             //ninnaValue += Time.deltaTime;
-            ninnaValue += 0.5f;
+            ninnaValue += 0.3f;
         }
         else {
             WinGame();
