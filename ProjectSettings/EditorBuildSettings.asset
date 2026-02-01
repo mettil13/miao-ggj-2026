@@ -27,5 +27,7 @@ EditorBuildSettings:
     path: Assets/Scenes/SpaceToNinna.unity
     guid: c7c266f323db93749ba68ec21a3bf272
   m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 102b26fe6eb2f18459b2550764889a71, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.localization.settings: {fileID: 11400000, guid: 37e45bfe8f1afd8479b9ef69839709fb, type: 2}
   m_UseUCBPForAssetBundles: 0

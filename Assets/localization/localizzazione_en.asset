@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: localizzazione_en
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 37dfda8bd80b2ab4dbc77683fe7cad22, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 7278845734912
+    m_Localized: Wake up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7454465437696
+    m_Localized: Go to sleep
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8303342235648
+    m_Localized: The Greatest Producer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8546901274624
+    m_Localized: Second Greatest Producer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8694830182400
+    m_Localized: Quantistic Sheep
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8880663015424
+    m_Localized: The real game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9353872781312
+    m_Localized: Doodle, Viruses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9679065559040
+    m_Localized: Zagostuff
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9841431261184
+    m_Localized: Other useless stuff
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10467305304064
+    m_Localized: Thank you!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10837763010560
+    m_Localized: "Pallo needs to try to fall asleep.\nTo do so, you must fill the
+      Sleep Bar.\n\nPress SPACE to put on and take off the night mask.\nCount the
+      sheep by THROWING them over the fence.\n\nBut be careful! While you\u2019re
+      trying to fall asleep, you\u2019ll hear some Suspicious Noises."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11255087869952
+    m_Localized: Try to sleep
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11562102534144
+    m_Localized: Pallo is dead and it's only your fault, you monster.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12093990612992
+    m_Localized: Seeing Pallo sleeping peacefully moved the monster, which became
+      good and decided to take a nap with him.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
