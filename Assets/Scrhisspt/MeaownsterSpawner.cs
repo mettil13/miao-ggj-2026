@@ -8,6 +8,7 @@ public class MeaownsterSpawner : MonoBehaviour
     private float kittenDespawnTime = float.MaxValue;
     
     [SerializeField] private GameObject monster;
+    [SerializeField] private bool flipped = false;
     private GameObject instantiatedMonster;
     private bool hasSpawned;
     private float spawnTime = float.MaxValue;
@@ -35,6 +36,7 @@ public class MeaownsterSpawner : MonoBehaviour
                 instantiatedMonster = Instantiate(monster);
                 instantiatedMonster.transform.position = transform.position;
                 instantiatedMonster.transform.parent = transform;
+                if (flipped) instantiatedMonster.transform.localScale = new Vector3(-1, 1, 1);
                 instantiatedMonster.GetComponentInChildren<CameraTriggrrrrr>().onLASERSTRONZO.AddListener(DespawnMonsterWithSound);
                 instantiatedMonster.transform.parent = this.pivot;
                 instantiatedMonster.transform.localPosition = Vector3.zero;
