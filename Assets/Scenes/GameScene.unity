@@ -2229,7 +2229,7 @@ Transform:
   m_GameObject: {fileID: 1033063167}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.824, y: 0.485, z: -0.077}
+  m_LocalPosition: {x: 0.033, y: 0.485, z: 1.114}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2245,9 +2245,10 @@ Animation:
   m_GameObject: {fileID: 1033063167}
   m_Enabled: 1
   serializedVersion: 4
-  m_Animation: {fileID: 7400000, guid: debf6d01dcc362445b865ef857e73c0c, type: 2}
+  m_Animation: {fileID: 7400000, guid: 00424ae1aca113a4c915f5f03cae3859, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: debf6d01dcc362445b865ef857e73c0c, type: 2}
+  - {fileID: 7400000, guid: 00424ae1aca113a4c915f5f03cae3859, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
@@ -2481,7 +2482,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 253455531}
-  m_LocalEulerAnglesHint: {x: 0, y: 5.659, z: -180}
+  m_LocalEulerAnglesHint: {x: 0, y: 28.193993, z: -180}
 --- !u!23 &1356894559
 MeshRenderer:
   m_ObjectHideFlags: 0
