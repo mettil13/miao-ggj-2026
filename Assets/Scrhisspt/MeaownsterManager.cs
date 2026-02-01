@@ -44,7 +44,7 @@ public class MeaownsterManager : MonoBehaviour
         if (monsterSpawnWaitTime < Time.time) {
             int monsterSpawnerIndex = Random.Range(0, monsterSpawners.Length);
             GameObject go;
-            if(Random.Range(0, 2) > 0) {
+            if(Random.Range(0, 4) > 0) {
                 go = monsters[Random.Range(0, monsterSpawners.Length)];
                 monsterSpawners[monsterSpawnerIndex].SpawnMonster(go, false);
             }
@@ -53,7 +53,7 @@ public class MeaownsterManager : MonoBehaviour
                 monsterSpawners[monsterSpawnerIndex].SpawnMonster(go, true);
             }
 
-            monsterSpawnWaitTime = Random.Range(5.0f, 10.0f) + Time.time;
+            monsterSpawnWaitTime = Random.Range(4.0f, 8.0f) + Time.time;
         }
     }
 }
