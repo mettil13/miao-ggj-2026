@@ -128,7 +128,8 @@ MonoBehaviour:
   onLASERSTRONZO:
     m_PersistentCalls:
       m_Calls: []
-  tempoToWatch: 1
+  tempoToWatch: 3
+  monsterRenderer: {fileID: 7587996475182709602}
 --- !u!1 &5723246664274344598
 GameObject:
   m_ObjectHideFlags: 0
@@ -188,7 +189,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
+  - {fileID: 2100000, guid: 9b5613442a6598643b4c7cddc5be2875, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
