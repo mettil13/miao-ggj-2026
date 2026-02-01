@@ -38,7 +38,7 @@ public class MeaownsterManager : MonoBehaviour
             audioSources[randomAudioIndex].resource = genericClip;
             audioSources[randomAudioIndex].Play();
 
-            randomAudioWaitTime = Random.Range(0.0f, 10.0f) + Time.time;
+            randomAudioWaitTime = Random.Range(0.0f, 10.0f - 5 * (GameManager.instance.ninnaValue / GameManager.instance.ninnaValue)) + Time.time;
         }
 
         if (monsterSpawnWaitTime < Time.time) {
