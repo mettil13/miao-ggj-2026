@@ -9,6 +9,7 @@ public class CameraTriggrrrrr : MonoBehaviour
     public float tempoToWatch = 1;
     public SpriteRenderer monsterRenderer;
     public Tween glowTween;
+    public bool isKitten = false;
 
     private void Awake()
     {
@@ -21,11 +22,14 @@ public class CameraTriggrrrrr : MonoBehaviour
         StopAllCoroutines();
         StartCoroutine(STRONZOROUTINE());
         Debug.Log("CAIO");
+
+       if(!isKitten) BlobbiPalliScreenSpace.instance.AddViewed(this.transform);
     }
     private void OnTriggerExit(Collider other)
     {
         SetMatPropertyBase();
         StopAllCoroutines();
+        BlobbiPalliScreenSpace.instance.RemoveViewed(this.transform);
     }
 
     IEnumerator STRONZOROUTINE()

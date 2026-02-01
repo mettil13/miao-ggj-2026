@@ -40,6 +40,7 @@ public class MeaownsterSpawner : MonoBehaviour
                 instantiatedMonster.GetComponentInChildren<CameraTriggrrrrr>().onLASERSTRONZO.AddListener(DespawnMonsterWithSound);
                 instantiatedMonster.transform.parent = this.pivot;
                 instantiatedMonster.transform.localPosition = Vector3.zero;
+                instantiatedMonster.GetComponentInChildren<CameraTriggrrrrr>().isKitten = isKitten;
                 anim.Stop();
                 anim.Play();
                 spawnTime = Time.time;

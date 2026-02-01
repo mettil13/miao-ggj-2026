@@ -1,6 +1,8 @@
 StructuredBuffer<float3> _SSPoints;
-float _PecoroCameraFade;
 float _SSPointsCount;
+float _PecoroCameraFade;
+StructuredBuffer<float3> _SSViewed;
+float _SSViewedCount;
 
 void GetVector_float(int index, out float3 value)
 {
@@ -18,6 +20,28 @@ void GetDist_float(int index,float3 pixelSS, out float value)
     }
     value *= _PecoroCameraFade*1;
 } 
+
+void GetView_float(float3 pixelSS, out float value)
+{
+    if ( _PecoroCameraFade>0 )
+    {
+        value = 1;
+        return;
+    }
+    
+    value = 0;
+    int cap = _SSViewedCount;
+    for (int i = 0; i < cap; i++)
+    {
+        float2 dt = _SSViewed[i].rg - pixelSS.rg;
+        dt.x *= 1.666;
+        float dist = saturate(1 - length(dt) * 3);
+        value += pow(dist, 1.2);
+    }
+    value /= _SSViewedCount;
+
+}
+
 
 void Pecoro_float(float3 pixelSS, out float value, out float value2)
 {
