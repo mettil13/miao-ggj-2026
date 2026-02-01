@@ -128,7 +128,7 @@ MonoBehaviour:
   onLASERSTRONZO:
     m_PersistentCalls:
       m_Calls: []
-  tempoToWatch: 6
+  tempoToWatch: 3
   monsterRenderer: {fileID: 7587996475182709602}
 --- !u!1 &5723246664274344598
 GameObject:
